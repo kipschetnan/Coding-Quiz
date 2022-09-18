@@ -124,6 +124,7 @@
 
 #q4 {
     font-family: Arial, Helvetica, sans-serif;
+    display: none;
 }
 
 #q4 h1 {
@@ -143,3 +144,82 @@
 #q4 button:hover {
     font-weight: bold;
 }
+
+#q5 {
+    font-family: Arial, Helvetica, sans-serif;
+    display: none;
+}
+
+#q5 h1 {
+    margin-top: 40px;
+    margin-right: 33%;
+    margin-left: 30%;
+}
+
+#q5 button{
+    background-color: blanchedalmond;
+    display: block;
+    margin-left: 31%;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+#q5 button:hover {
+    font-weight: bold;
+}
+
+#end {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#end h1 {
+    margin-top: 40px;
+    margin-right: 33%;
+    margin-left: 30%;
+}
+
+#end div {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 33%;
+    margin-left: 30%;
+    margin-bottom: 20px;
+}
+
+#end div button {
+    background-color: blanchedalmond;
+    border-radius: 5px;
+}
+
+#end div button:hover {
+    font-weight: bold;
+}
+#result1 {
+    margin-left: 30%;
+    margin-right: 33%;
+    margin-top: 10px;
+    border-top: 2px solid gray;
+}
+
+#result2 {
+    margin-left: 30%;
+    margin-right: 33%;
+    margin-top: 10px;
+    border-top: 2px solid gray;
+}
+
+#result3 {
+    margin-left: 30%;
+    margin-right: 33%;
+    margin-top: 10px;
+    border-top: 2px solid gray;
+}
+
+#result4 {
+    margin-left: 30%;
+    margin-right: 33%;
+    margin-top: 10px;
+    border-top: 2px solid gray;
+}
+
+
+
