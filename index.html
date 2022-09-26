@@ -13,8 +13,8 @@
         <div>Time: <span id="time"></span></div>
     </div>
 
-    <section class="section">
-        <div id="coding-quiz-challenge">
+    <section>
+        <div id="startScreen">
             <h1>
                 Coding Quiz Challenge 
             </h1>
@@ -25,105 +25,124 @@
                 by 10 seconds!
             </h2>
 
-            <button>
+            <button id="startQuiz">
                 Start Quiz
             </button>
         </div>
         
     </section>
 
-    <section class="section">
+    <section>
         <div id="q1">
             <h1>
                 Commonly used data types do not include:
             </h1>
             
-            <button>1. Strings</button>
-            <button>2. Booleans</button>
-            <button>3. Alerts</button>
-            <button>4. Numbers</button>
-
-            <div id="result1"></div>
+            <button id="q1Btn-1">1. Strings</button>
+            <button id="q1Btn-2">2. Booleans</button>
+            <button id="q1Btn-3">3. Alerts</button>
+            <button id="q1Btn-4">4. Numbers</button>
         </div>
         
     </section>
 
-    <section class="section">
+    <section>
         <div id="q2">
             <h1>
                 The condition in a if / else statement is enclosed within _____.
             </h1>
             
-            <button>1. Quotes</button>
-            <button>2. Curly Brackets</button>
-            <button>3. Parenthesis</button>
-            <button>4. Square Brackets</button>
+            <button id="q2Btn-1">1. Quotes</button>
+            <button id="q2Btn-2">2. Curly Brackets</button>
+            <button id="q2Btn-3">3. Parenthesis</button>
+            <button id="q2Btn-4">4. Square Brackets</button>
+            <div id="result1"></div>
         </div>
         
     </section>
 
-    <section class="section">
+    <section>
         <div id="q3">
             <h1>
                 Arrays in JavaScript can be used to store: ____.
             </h1>
             
-            <button>1. Numbers and strings</button>
-            <button>2. Other arrays</button>
-            <button>3. Booleans</button>
-            <button>4. All of the above</button>
+            <button id="q3Btn-1">1. Numbers and strings</button>
+            <button id="q3Btn-2">2. Other arrays</button>
+            <button id="q3Btn-3">3. Booleans</button>
+            <button id="q3Btn-4">4. All of the above</button>
 
             <div id="result2"></div>
         </div>
         
     </section>
 
-    <section class="section">
+    <section>
         <div id="q4">
             <h1>
                 String values must be enclosed within _____ when being assigned to variables.
             </h1>
             
-            <button>1. Commas</button>
-            <button>2. Curly brackets</button>
-            <button>3. Quotes</button>
-            <button>4. Parenthesis</button>
+            <button id="q4Btn-1">1. Commas</button>
+            <button id="q4Btn-2">2. Curly brackets</button>
+            <button id="q4Btn-3">3. Quotes</button>
+            <button id="q4Btn-4">4. Parenthesis</button>
 
             <div id="result3"></div>
         </div>
         
     </section>
 
-    <section class="section">
+    <section>
         <div id="q5">
             <h1>
                 A very useful tool used during development and debugging for printing content to the debugger is:
             </h1>
             
-            <button>1. JavaScript</button>
-            <button>2. Terminal/bash</button>
-            <button>3. For loops</button>
-            <button>4. Console log</button>
+            <button id="q5Btn-1">1. JavaScript</button>
+            <button id="q5Btn-2">2. Terminal/bash</button>
+            <button id="q5Btn-3">3. For loops</button>
+            <button id="q5Btn-4">4. Console log</button>
 
             <div id="result4"></div>
         </div>
         
     </section>
 
-    <section class="section">
-        <div id="end">
+    <section>
+        <div id="endScreen">
             <h1>
                 All Done!
             </h1>
             
-            <div>Your final score is: <span id="score"></span>22</div>
-            <div>Enter intitials: <input type="text"> <button>Submit</button></div>
+            <div>Your final score is: <span id="score"></span></div>
+            <div>Enter intitials: <input type="text" id="input"> <button id="submit">Submit</button></div>
 
-            <div id="result4"></div>
+            <div id="result5"></div>
         </div>
         
     </section>
 
+    <section>
+        <div id="highscores">
+            <h1>
+                Highscores
+            </h1>
+
+            <ul id="initials"></ul>
+            <div id="endingButtons">
+                <button id="goBack">Go Back</button>
+                <button id="clear">Clear Highscores</button>
+            </div>
+        </div>
+        
+    </section>
+
+    <div id="outOfTime">
+        YOU RAN OUT OF TIME!
+    </div>
+
+    <script src="script.js"></script>
 
 
 </body>

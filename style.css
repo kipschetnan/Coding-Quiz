@@ -1,11 +1,10 @@
-* {
-    margin 0;
-    padding 0;
-}
-
 .head {
     display: flex;
     color: #603232;
+}
+
+#section {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .head div {
@@ -24,32 +23,28 @@
     font-weight: bold;
 }
 
-.section {
-
-}
-
-#coding-quiz-challenge {
+#startScreen {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     display: none;
 }
 
-#coding-quiz-challenge h1 {
+#startScreen h1 {
     font-weight: bolder;
     margin-top: 100px;
 }
 
-#coding-quiz-challenge h2 {
+#startScreen h2 {
     margin-left: 35%;
     margin-right: 35%;
     font-size: 15px;
 }
 
-#coding-quiz-challenge button {
+#startScreen button {
     background-color: blanchedalmond;
 }
 
-#coding-quiz-challenge button:hover {
+#startScreen button:hover {
     font-weight: bold;
 }
 
@@ -168,58 +163,119 @@
     font-weight: bold;
 }
 
-#end {
+#endScreen {
     font-family: Arial, Helvetica, sans-serif;
+    display: none;
 }
 
-#end h1 {
+#endScreen h1 {
     margin-top: 40px;
     margin-right: 33%;
     margin-left: 30%;
 }
 
-#end div {
+#endScreen div {
     font-family: Arial, Helvetica, sans-serif;
     margin-right: 33%;
     margin-left: 30%;
     margin-bottom: 20px;
 }
 
-#end div button {
+#endScreen div button {
     background-color: blanchedalmond;
     border-radius: 5px;
 }
 
-#end div button:hover {
+#endScreen div button:hover {
     font-weight: bold;
 }
 #result1 {
     margin-left: 30%;
     margin-right: 33%;
-    margin-top: 10px;
+    margin-top: 20px;
     border-top: 2px solid gray;
+    opacity: 50%;
+    color: gray;
+    padding-top: 10px;
+    font-size: 20px;
 }
 
 #result2 {
     margin-left: 30%;
     margin-right: 33%;
-    margin-top: 10px;
+    margin-top: 20px;
     border-top: 2px solid gray;
+    opacity: 50%;
+    color: gray;
+    padding-top: 10px;
+    font-size: 20px;
 }
 
 #result3 {
     margin-left: 30%;
     margin-right: 33%;
-    margin-top: 10px;
+    margin-top: 20px;
     border-top: 2px solid gray;
+    opacity: 50%;
+    color: gray;
+    padding-top: 10px;
+    font-size: 20px;
 }
 
 #result4 {
     margin-left: 30%;
     margin-right: 33%;
-    margin-top: 10px;
+    margin-top: 20px;
     border-top: 2px solid gray;
+    opacity: 50%;
+    color: gray;
+    padding-top: 10px;
+    font-size: 20px;
 }
+#result5 {
+    margin-left: 30%;
+    margin-right: 33%;
+    margin-top: 20px;
+    border-top: 2px solid gray;
+    opacity: 50%;
+    color: gray;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+#outOfTime {
+    text-align: center;
+    font-size: 200px;
+    color: #603232;
+    display: none;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+#highscores {
+    display: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#highscores h1 {
+    margin-top: 40px;
+    margin-left: 30%;
+}
+#endingButtons {
+    display: inline-block;
+    margin-left: 30%;
+}
+
+#initials {
+    margin-left: 30%;
+    background-color: blanchedalmond;
+}
+
+#endingButtons button {
+    background-color: blanchedalmond;
+    border-radius: 5px;
+}
+
 
 
 
