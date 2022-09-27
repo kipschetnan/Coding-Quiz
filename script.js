@@ -356,9 +356,7 @@ function quiz () {
             secondsLeft = 0;
             timeEl.textContent = secondsLeft;
             clearInterval(timerInterval);
-            console.log('HELLO');
             
-            debugger
             q1El.setAttribute('style', 'display: none;');
             q2El.setAttribute('style', 'display: none;');
             q3El.setAttribute('style', 'display: none;');
